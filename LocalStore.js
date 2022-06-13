@@ -33,9 +33,7 @@ export default class Store {
     }
     static removeBook(description){
         const books = Store.getBooks();
-        console.log(books);
         books.forEach(function(book, index){
-            console.log(book?.description);
         if (book._description === description) {
             books.splice(index, 1);
         }

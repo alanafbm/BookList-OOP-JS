@@ -7,18 +7,37 @@
     <title>Book List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        
         .success, .error {
             color: white;
             padding: 5px;
             margin: 5px 0 15px 0;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
 
         }
         .success {
-            background-color: green;
+            background-color: aquamarine;
+           
         }
         .error{
-            background-color: red;
-
+            background-color: rgba(255, 0, 0, 0.464);
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+        h1{
+            text-align: center;
+            background-color: aquamarine;
+            
+            
+            
+        }
+        input[type=submit]{
+            background-color: aquamarine;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -36,7 +55,7 @@
             </div>
             <div>
                 <label for="description">Description</label>
-                <input type="text" id="description" class="u-full-width">
+                <textarea id="description" class="u-full-width" rows="4" cols="50"></textarea>
             </div>
             <input type="submit" value="Submit" class="u-full-width">
         </form>
