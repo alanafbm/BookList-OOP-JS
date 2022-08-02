@@ -17,8 +17,6 @@ document.getElementById('book-form').addEventListener('submit', function(e){
     // Instantiate UI
     const ui = new UI();
 
-
-
     // validate
     if (title === '' || author === '' || description === '') {
         // Error alert

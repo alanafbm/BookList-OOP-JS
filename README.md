@@ -14,4 +14,4 @@ ____________
 ____________    
 
 
-![alt text](./booklist.JPG)
+![Booklist](./Animation.gif)
